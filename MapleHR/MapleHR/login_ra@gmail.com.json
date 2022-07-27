@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "message": "",
+    "data": {
+        "name": "Rana Abdullah",
+        "id": 1,
+        "email": "ra@gmail.com"
+    }
+}

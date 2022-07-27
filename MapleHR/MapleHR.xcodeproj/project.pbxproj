@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7064712288ECF9C00929BF8 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7064711288ECF9C00929BF8 /* HomeVC.swift */; };
+		D77E32732881A048000672CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77E32722881A048000672CF /* AppDelegate.swift */; };
+		D77E32752881A048000672CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77E32742881A048000672CF /* SceneDelegate.swift */; };
+		D77E32772881A048000672CF /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77E32762881A048000672CF /* LoginVC.swift */; };
+		D77E327A2881A048000672CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D77E32782881A048000672CF /* Main.storyboard */; };
+		D77E327C2881A049000672CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D77E327B2881A049000672CF /* Assets.xcassets */; };
+		D77E327F2881A049000672CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D77E327D2881A049000672CF /* LaunchScreen.storyboard */; };
+		D77E328A2881A049000672CF /* MapleHRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77E32892881A049000672CF /* MapleHRTests.swift */; };
+		D77E32942881A049000672CF /* MapleHRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77E32932881A049000672CF /* MapleHRUITests.swift */; };
+		D77E32962881A049000672CF /* MapleHRUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77E32952881A049000672CF /* MapleHRUITestsLaunchTests.swift */; };
+		D77E32A42881AF69000672CF /* UIView+Accessories.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77E32A32881AF69000672CF /* UIView+Accessories.swift */; };
+		D77E32E32881C09D000672CF /* login_ra@gmail.com.json in Resources */ = {isa = PBXBuildFile; fileRef = D77E32E22881C09D000672CF /* login_ra@gmail.com.json */; };
+		D77E32E52881C0F8000672CF /* login_un@gmail.com.json in Resources */ = {isa = PBXBuildFile; fileRef = D77E32E42881C0F8000672CF /* login_un@gmail.com.json */; };
+		D77E32EC2881C137000672CF /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77E32EB2881C137000672CF /* Api.swift */; };
+		D77E32EF2881C15D000672CF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77E32EE2881C15D000672CF /* User.swift */; };
+		D77E32F12881C283000672CF /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77E32F02881C283000672CF /* JSONParser.swift */; };
+		D77E32F32881C326000672CF /* FileLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77E32F22881C326000672CF /* FileLoader.swift */; };
+		D77E32F52881C7E0000672CF /* home.json in Resources */ = {isa = PBXBuildFile; fileRef = D77E32F42881C7E0000672CF /* home.json */; };
+		D77E32F72881C827000672CF /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77E32F62881C827000672CF /* Home.swift */; };
+		D7CC9F7A28883D51000D7536 /* JSONParser_New.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CC9F7928883D51000D7536 /* JSONParser_New.swift */; };
+		D7FCBD9628868B03009C4A08 /* ApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FCBD9528868B03009C4A08 /* ApiModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D77E32862881A049000672CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D77E32672881A048000672CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D77E326E2881A048000672CF;
+			remoteInfo = MapleHR;
+		};
+		D77E32902881A049000672CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D77E32672881A048000672CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D77E326E2881A048000672CF;
+			remoteInfo = MapleHR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7064711288ECF9C00929BF8 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		D77E326F2881A048000672CF /* MapleHR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapleHR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D77E32722881A048000672CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D77E32742881A048000672CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D77E32762881A048000672CF /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		D77E32792881A048000672CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D77E327B2881A049000672CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D77E327E2881A049000672CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D77E32802881A049000672CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D77E32852881A049000672CF /* MapleHRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapleHRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D77E32892881A049000672CF /* MapleHRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapleHRTests.swift; sourceTree = "<group>"; };
+		D77E328F2881A049000672CF /* MapleHRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapleHRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D77E32932881A049000672CF /* MapleHRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapleHRUITests.swift; sourceTree = "<group>"; };
+		D77E32952881A049000672CF /* MapleHRUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapleHRUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D77E32A32881AF69000672CF /* UIView+Accessories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Accessories.swift"; sourceTree = "<group>"; };
+		D77E32E22881C09D000672CF /* login_ra@gmail.com.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "login_ra@gmail.com.json"; sourceTree = "<group>"; };
+		D77E32E42881C0F8000672CF /* login_un@gmail.com.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "login_un@gmail.com.json"; sourceTree = "<group>"; };
+		D77E32EB2881C137000672CF /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		D77E32EE2881C15D000672CF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D77E32F02881C283000672CF /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
+		D77E32F22881C326000672CF /* FileLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileLoader.swift; sourceTree = "<group>"; };
+		D77E32F42881C7E0000672CF /* home.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = home.json; sourceTree = "<group>"; };
+		D77E32F62881C827000672CF /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		D7CC9F7928883D51000D7536 /* JSONParser_New.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser_New.swift; sourceTree = "<group>"; };
+		D7FCBD9528868B03009C4A08 /* ApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D77E326C2881A048000672CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77E32822881A049000672CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77E328C2881A049000672CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D77E32662881A048000672CF = {
+			isa = PBXGroup;
+			children = (
+				D77E32712881A048000672CF /* MapleHR */,
+				D77E32882881A049000672CF /* MapleHRTests */,
+				D77E32922881A049000672CF /* MapleHRUITests */,
+				D77E32702881A048000672CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D77E32702881A048000672CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D77E326F2881A048000672CF /* MapleHR.app */,
+				D77E32852881A049000672CF /* MapleHRTests.xctest */,
+				D77E328F2881A049000672CF /* MapleHRUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D77E32712881A048000672CF /* MapleHR */ = {
+			isa = PBXGroup;
+			children = (
+				D77E32722881A048000672CF /* AppDelegate.swift */,
+				D77E32742881A048000672CF /* SceneDelegate.swift */,
+				D77E32762881A048000672CF /* LoginVC.swift */,
+				D7064711288ECF9C00929BF8 /* HomeVC.swift */,
+				D77E32E12881C08C000672CF /* Api */,
+				D77E32A22881AF50000672CF /* Extensions */,
+				D77E32782881A048000672CF /* Main.storyboard */,
+				D77E327B2881A049000672CF /* Assets.xcassets */,
+				D77E327D2881A049000672CF /* LaunchScreen.storyboard */,
+				D77E32802881A049000672CF /* Info.plist */,
+			);
+			path = MapleHR;
+			sourceTree = "<group>";
+		};
+		D77E32882881A049000672CF /* MapleHRTests */ = {
+			isa = PBXGroup;
+			children = (
+				D77E32892881A049000672CF /* MapleHRTests.swift */,
+			);
+			path = MapleHRTests;
+			sourceTree = "<group>";
+		};
+		D77E32922881A049000672CF /* MapleHRUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D77E32932881A049000672CF /* MapleHRUITests.swift */,
+				D77E32952881A049000672CF /* MapleHRUITestsLaunchTests.swift */,
+			);
+			path = MapleHRUITests;
+			sourceTree = "<group>";
+		};
+		D77E32A22881AF50000672CF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D77E32A32881AF69000672CF /* UIView+Accessories.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		D77E32E12881C08C000672CF /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				D77E32ED2881C157000672CF /* Model */,
+				D77E32E82881C122000672CF /* ApiHandler */,
+				D77E32E72881C119000672CF /* LocalJSON */,
+			);
+			name = Api;
+			sourceTree = "<group>";
+		};
+		D77E32E72881C119000672CF /* LocalJSON */ = {
+			isa = PBXGroup;
+			children = (
+				D77E32E22881C09D000672CF /* login_ra@gmail.com.json */,
+				D77E32F42881C7E0000672CF /* home.json */,
+				D77E32E42881C0F8000672CF /* login_un@gmail.com.json */,
+			);
+			name = LocalJSON;
+			sourceTree = "<group>";
+		};
+		D77E32E82881C122000672CF /* ApiHandler */ = {
+			isa = PBXGroup;
+			children = (
+				D77E32EB2881C137000672CF /* Api.swift */,
+				D77E32F02881C283000672CF /* JSONParser.swift */,
+				D7CC9F7928883D51000D7536 /* JSONParser_New.swift */,
+				D77E32F22881C326000672CF /* FileLoader.swift */,
+			);
+			name = ApiHandler;
+			sourceTree = "<group>";
+		};
+		D77E32ED2881C157000672CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D77E32EE2881C15D000672CF /* User.swift */,
+				D77E32F62881C827000672CF /* Home.swift */,
+				D7FCBD9528868B03009C4A08 /* ApiModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D77E326E2881A048000672CF /* MapleHR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D77E32992881A049000672CF /* Build configuration list for PBXNativeTarget "MapleHR" */;
+			buildPhases = (
+				D77E326B2881A048000672CF /* Sources */,
+				D77E326C2881A048000672CF /* Frameworks */,
+				D77E326D2881A048000672CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapleHR;
+			productName = MapleHR;
+			productReference = D77E326F2881A048000672CF /* MapleHR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D77E32842881A049000672CF /* MapleHRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D77E329C2881A049000672CF /* Build configuration list for PBXNativeTarget "MapleHRTests" */;
+			buildPhases = (
+				D77E32812881A049000672CF /* Sources */,
+				D77E32822881A049000672CF /* Frameworks */,
+				D77E32832881A049000672CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D77E32872881A049000672CF /* PBXTargetDependency */,
+			);
+			name = MapleHRTests;
+			productName = MapleHRTests;
+			productReference = D77E32852881A049000672CF /* MapleHRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D77E328E2881A049000672CF /* MapleHRUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D77E329F2881A049000672CF /* Build configuration list for PBXNativeTarget "MapleHRUITests" */;
+			buildPhases = (
+				D77E328B2881A049000672CF /* Sources */,
+				D77E328C2881A049000672CF /* Frameworks */,
+				D77E328D2881A049000672CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D77E32912881A049000672CF /* PBXTargetDependency */,
+			);
+			name = MapleHRUITests;
+			productName = MapleHRUITests;
+			productReference = D77E328F2881A049000672CF /* MapleHRUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D77E32672881A048000672CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D77E326E2881A048000672CF = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D77E32842881A049000672CF = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D77E326E2881A048000672CF;
+					};
+					D77E328E2881A049000672CF = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D77E326E2881A048000672CF;
+					};
+				};
+			};
+			buildConfigurationList = D77E326A2881A048000672CF /* Build configuration list for PBXProject "MapleHR" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D77E32662881A048000672CF;
+			productRefGroup = D77E32702881A048000672CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D77E326E2881A048000672CF /* MapleHR */,
+				D77E32842881A049000672CF /* MapleHRTests */,
+				D77E328E2881A049000672CF /* MapleHRUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D77E326D2881A048000672CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77E327F2881A049000672CF /* LaunchScreen.storyboard in Resources */,
+				D77E327C2881A049000672CF /* Assets.xcassets in Resources */,
+				D77E32F52881C7E0000672CF /* home.json in Resources */,
+				D77E327A2881A048000672CF /* Main.storyboard in Resources */,
+				D77E32E32881C09D000672CF /* login_ra@gmail.com.json in Resources */,
+				D77E32E52881C0F8000672CF /* login_un@gmail.com.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77E32832881A049000672CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77E328D2881A049000672CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D77E326B2881A048000672CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77E32772881A048000672CF /* LoginVC.swift in Sources */,
+				D7CC9F7A28883D51000D7536 /* JSONParser_New.swift in Sources */,
+				D77E32732881A048000672CF /* AppDelegate.swift in Sources */,
+				D77E32F32881C326000672CF /* FileLoader.swift in Sources */,
+				D77E32F12881C283000672CF /* JSONParser.swift in Sources */,
+				D7FCBD9628868B03009C4A08 /* ApiModel.swift in Sources */,
+				D77E32F72881C827000672CF /* Home.swift in Sources */,
+				D77E32752881A048000672CF /* SceneDelegate.swift in Sources */,
+				D77E32EF2881C15D000672CF /* User.swift in Sources */,
+				D7064712288ECF9C00929BF8 /* HomeVC.swift in Sources */,
+				D77E32EC2881C137000672CF /* Api.swift in Sources */,
+				D77E32A42881AF69000672CF /* UIView+Accessories.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77E32812881A049000672CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77E328A2881A049000672CF /* MapleHRTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77E328B2881A049000672CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77E32962881A049000672CF /* MapleHRUITestsLaunchTests.swift in Sources */,
+				D77E32942881A049000672CF /* MapleHRUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D77E32872881A049000672CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D77E326E2881A048000672CF /* MapleHR */;
+			targetProxy = D77E32862881A049000672CF /* PBXContainerItemProxy */;
+		};
+		D77E32912881A049000672CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D77E326E2881A048000672CF /* MapleHR */;
+			targetProxy = D77E32902881A049000672CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D77E32782881A048000672CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D77E32792881A048000672CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D77E327D2881A049000672CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D77E327E2881A049000672CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D77E32972881A049000672CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D77E32982881A049000672CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D77E329A2881A049000672CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X5B5SH7BA5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapleHR/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.usama.MapleHR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D77E329B2881A049000672CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X5B5SH7BA5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapleHR/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.usama.MapleHR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D77E329D2881A049000672CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X5B5SH7BA5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.usama.MapleHRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapleHR.app/MapleHR";
+			};
+			name = Debug;
+		};
+		D77E329E2881A049000672CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X5B5SH7BA5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.usama.MapleHRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapleHR.app/MapleHR";
+			};
+			name = Release;
+		};
+		D77E32A02881A049000672CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X5B5SH7BA5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.usama.MapleHRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MapleHR;
+			};
+			name = Debug;
+		};
+		D77E32A12881A049000672CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X5B5SH7BA5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.usama.MapleHRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MapleHR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D77E326A2881A048000672CF /* Build configuration list for PBXProject "MapleHR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D77E32972881A049000672CF /* Debug */,
+				D77E32982881A049000672CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D77E32992881A049000672CF /* Build configuration list for PBXNativeTarget "MapleHR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D77E329A2881A049000672CF /* Debug */,
+				D77E329B2881A049000672CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D77E329C2881A049000672CF /* Build configuration list for PBXNativeTarget "MapleHRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D77E329D2881A049000672CF /* Debug */,
+				D77E329E2881A049000672CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D77E329F2881A049000672CF /* Build configuration list for PBXNativeTarget "MapleHRUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D77E32A02881A049000672CF /* Debug */,
+				D77E32A12881A049000672CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D77E32672881A048000672CF /* Project object */;
+}

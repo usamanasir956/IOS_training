@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "message": "",
+    "data": {
+        "name": "Usama Nasir",
+        "id": 2,
+        "email": "un@gmail.com"
+    }
+}
